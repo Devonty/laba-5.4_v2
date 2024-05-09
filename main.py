@@ -26,7 +26,7 @@ class Tetris(QWidget):
         self.board = None
         self.initUI()
         self.score = 0
-        self.board_size = 4
+        self.board_size = 10
         self.board = [[0 for _ in range(self.board_size)] for _ in range(self.board_size)]
         self.available_shapes = [
             Shape([(0, 0), (0, 1), (1, 0), (1, 1)]),  # квадрат2х2
